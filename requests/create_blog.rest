@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhlbGxhcyIsImlkIjoiNjg2MWNjYmIxYTljNzIzMzY5OWI1OGM2IiwiaWF0IjoxNzUxMjQ0MzE3fQ.vScg9ZxDaL0x00_PVa_4RHQuyca-e1uy-c3QdMN3ugw
+
+{
+    "title": "Things I Don't Know as of 2018",
+    "author": "Dan Abramov",
+    "url": "https://martinfowler.com/articles/distributed-objects-microservices.html",
+    "likes": 0,
+    "userId": "6861ccbb1a9c7233699b58c6"
+}
